@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(36, 149, 255);
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/009/831/146/small/banner-web-template-abstract-blue-and-golden-wave-curved-lines-overlapping-layer-design-on-dark-blue-background-luxury-style-vector.jpg);
+}
+.logo img {
+    width: 250px;
+    height: auto;
+}
+.titulo h1 {
+    color: white;
+    font-family: 'Aclonica';font-size: 50px;
+}
+nav ul {
+    width: 90%;
+    margin: auto;
+    border-radius: 30px;
+    list-style-type: none;
+    background-color: blue;
+    text-align: center; 
+    border: 2px solid #ddd;  
+}
+nav li {
+    display: inline-flex;
+    font-size: 17px;
+}
+
+.menu .navbar ul li a {
+    font-family: 'Sofia';
+    
+}
+
+.menu a:link, a:visited {
+    background-color: blue;
+    color: yellow;
+    margin: 10px;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+.menu a:hover, a:active {
+    background-color: yellow;
+    color: blue;
+    font-size: 22px;
+    border-radius: 50px;
+}
+    
+section {
+    padding: 35px;
+    margin: 40px;
+    background-color: #c9eeff;
+    border-radius: 10px;
+}
+section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+section p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+.pdf-latex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.pdf-latex embed {
+    width: 90%;
+    height: 700px;
+    border-radius: 5px;
+    border: none;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr)); 
+    gap: 15px; 
+    margin-top: 20px; 
+}
+.gallery img {
+    width: 90%; 
+    height: auto; 
+    border-radius: 10px; 
+    transition: transform 0.3s ease; 
+}
+.gallery img:hover {
+    transform: scale(1.05); 
+}
+footer {
+    background-color: #fbff2b;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Sofia';font-size: 22px;
+    border: 2px solid #724400; 
+}
+.social-media {
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos */
+}
+
+.social-media p {
+    margin-right: 10px; /* Espacio entre el texto y los iconos */
+}
+
+.social-media a {
+    margin: 0 5px; /* Espacio entre los iconos */
+    text-decoration: none; /* Elimina el subrayado en los enlaces */
+}
